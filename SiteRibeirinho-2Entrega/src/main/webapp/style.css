@@ -1,0 +1,343 @@
+/*Cabeçanho*/
+@import url('https://fonts.googleapis.com/css2? family= Oleo+Script:wght@700 & family= Pacifico & display=swap');
+
+/*nav*/
+header {
+    background: url(zfundo.jpg) no-repeat center center/cover;
+    height: 50rem;
+}
+
+h2 {
+    color: #4b6043;
+    width: 68rem;
+    font-size: 2rem;
+}
+
+#links {
+    color: #4b6043;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10rem;
+    font-size: 7rem;
+    font-family: 'Oleo Script', cursiva;
+    font-family: 'Pacifico', cursiva;
+    font-style: italic;
+    color: #0f291e;
+    text-align: center;
+}
+/*nav*/
+
+/*login*/
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 50px rgba(0.5, 0.5, 0.5, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.acessar {
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #0f291e;
+}
+
+.btn-entrar {
+    display: inline-block;
+    padding: 30px 60 px;
+    text-transform: uppercase;
+    background: #0f291e;
+    border-radius: 5px;
+    color: burlywood;
+    transition: background 500ms ease;
+}
+
+.fechar {
+    width: 3rem;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+/*login*/
+
+/*dest*/
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #4b6043;
+}
+
+.destinos {
+    background-color: #4b6043;
+    border-radius: 7px;
+    color: #ddead1;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.bus-btn {
+    display: inline-block;
+    padding: 30px 60px;
+    size: 7px;
+    background: #4b6043;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    transition: background 500ms ease;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.bus,
+.cor-text {
+    color: #ddead1;
+}
+/*dest*/
+/*Cabeçanho*/
+
+/*promoçoes*/
+main {
+    padding: 10rem;
+}
+
+main,
+h3 {
+    text-align: center;
+    color: #658354;
+}
+
+#promo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 35px;
+}
+
+.card-promo {
+    font-size: 1.2rem;
+}
+
+.btn-promo {
+    background-color: white;
+    border: none;
+    color: #4b6043;
+}
+/*promoçoes*/
+
+/*amazonia*/
+.am-ver {
+    background: url(zrainforest-78516_1920.jpg) no-repeat center center/cover;
+    height: 40rem;
+    display: flex;
+}
+
+.ama {
+    width: 50%;
+    margin: auto;
+    padding: 45px;
+    box-shadow: 30px 30px 60px rgba(0.5, 0.5, 0.5, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ddead1;
+    font-family: 'Pacifico', cursiva;
+}
+
+.ama>p {
+    color: #ddead1;
+    font-size: 1.1rem;
+    font-style: oblique;
+
+}
+
+.btn-art {
+    width: 12rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    border-radius: 3px;
+   background: #4b6043;
+    transition: background 500ms ease;
+    text-align: center;
+}
+.am-resp{
+    display: none;
+}
+/*amazonia*/
+
+/*manaus*/
+.ma-ver {
+    background: url(zmanaus.jpg) no-repeat center center/cover;
+    height: 40rem;
+    display: flex;
+}
+ 
+.ma-resp{
+    display: none;
+}
+
+.man {
+    width: 50%;
+    margin: auto;
+    padding: 45px;
+    box-shadow: 30px 30px 60px rgba(0.5, 0.5, 0.5, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.titulo-ma {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0f291e;
+    font-family: 'Pacifico', 'cursiva';
+}
+
+.man-ver>p {
+    color: #0f291e;
+    font-size: 1.1rem;
+    font-style: oblique;
+
+}
+
+/*manaus*/
+
+
+/*Fotos*/
+figure {
+    padding: 45px;
+}
+
+#fotos-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#fotos {
+    grid-gap: 30px;
+}
+
+.fotos-image {
+    justify-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 20rem;
+    height: 15rem;
+}
+/*Fotos*/
+
+/*Rodape*/
+footer {
+    display: grid;
+    color: #ddead1;
+    background-color: #4b6043;
+    text-align: center;
+}
+/*Rodape*/
+
+
+@media(max-width:500px) {
+    .tit {
+        color: #ddead1;
+        width: 8rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    #pr {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    #promo{
+        cursor: pointer;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .am-ver{
+        display: none;
+    }
+    .am-resp{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding:2rem;
+      }h3 {
+        text-align: center;
+        font-size: 2rem;
+        color: #0f291e;
+      }.am-resp>p {
+        color: #2F5233;
+        font-size: 1rem;
+        font-style: oblique;
+        text-align: l;
+      }
+      .img-resp{
+        width: 20rem;
+      }
+      .ma-ver{
+        display: none;
+    }
+    .fts-am{
+        display: none;
+    }
+    .ma-resp{
+        display: inline;
+        justify-content: center;
+        align-items: center;
+        padding:2rem;
+      }.h-ma {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #0f291e;
+      }.ma-resp>p {
+        color: #2F5233;
+        font-size: 1rem;
+        font-style: oblique;
+        text-align:left;
+      }
+      .img-ma{
+        width: 20rem;
+      }
+
+
+
+    
+}
